@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const yearSpan = document.createElement('span');
-    yearSpan.textContent = new Date().getFullYear();
-    document.querySelector('footer').appendChild(yearSpan);
+    const yearP = document.createElement('p');
+    yearP.textContent = new Date().getFullYear();
+    document.querySelector('footer').appendChild(yearP);
 });
